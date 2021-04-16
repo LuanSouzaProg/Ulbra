@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E2E5E9;
+    font: normal 15pt Arial;
+    padding: 0;
+}
+
+.sectiontop{
+    background-image: url(./img/Mask\ Group.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 0;
+    
+}
+
+.titulo{
+    margin-left: 1%;
+    font-size: 16px;
+}
+
+.divlinha{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.textwhite{
+    color: white;
+}
+
+.textwhite:hover{
+    cursor: pointer;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: white; /* Primeiro parametro sempre o tamanho, segundo o tipo, terceiro a cor */
+    padding-top: 15px;
+}
+
+.container h2{
+    margin: 10px 0 10px 10px;
+}
+
+.titleTable{
+    display: flex;
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 5px;
+}
+
+.teamTable {
+    display: flex;
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 5px;
+}
+
+.teamTable .left{
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+}
+
+.left p{
+    margin-left: 10px;
+}
+
+.titleTable .left p, .titleTable .right p{
+    font-size: 14px;
+    color: RGB(112, 117, 122);
+}
+
+.right {
+    width: 50%;
+    display: flex;
+}
+
+.right p{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.right p:last-child{
+    width: 100px;
+}
+
+.left img{
+    width: 24px;
+    height: 24px;
+}
+
+span{
+    margin-right: 5px;
+}
+
+.win {
+    background-image: url('/img/v.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.lose {
+    background-image: url('/img/d.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.draw {
+    background-image: url('/img/e.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.top1{
+    border-left: 3px solid #4285F4;
+}
+
+.top2{
+    border-left: 3px solid #FA7B17;
+}
+
+.top3{
+    border-left: 3px solid white;
+}
+
+/* legenda */
+
+.legenda{
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    font-size: 14px;
+}
+
+.classificatoria{
+    width: 50%;
+    margin: 10px 0px 0px 10px;
+}
+
+.ultimas{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.legenda .ball{
+    display: inline-block;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.promocao::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #4285F4;
+    margin-right: 5px;
+}
+
+.promocao2::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #FA7B17;
+    margin-right: 5px;
+}
+
+.promocao{
+    margin-top: 10px;
+}
+
+.promocao2{
+    margin-top: 10px;
+}
+
+.container2{
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.container2 h3{
+    margin: 10px;
+}
+
+.titleTable2 .left2 p, .titleTable2 .right2 p{
+    font-size: 14px;
+    color: RGB(112, 117, 122);
+}
+
+.titleTable2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 0 15px;
+}
+
+.left2{
+    width: 50px;
+}
+
+.right2{
+    width: 50px;
+}
+
+.player{   
+    width: 100%;
+    margin-top: 10px;
+}
+
+.player p{
+    display: inline-block;
+}
+
+.player span{
+    margin-left: 20px;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 0px 35px;
+    color: grey;
+}
+
+.time p{
+    display: inline-block;
+}
+
+.time img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.separacao2{
+    border-bottom: 1px solid #c9c9c9;
+    display: flex;
+    margin: 10px 0;
+}
+
+.golsJogador p{
+    margin: 0px 20px 20px 0px;
+}
+
+.tabjogos{
+    border: 1px solid #c9c9c9;
+}
+
+.partidas{
+    display: flex;
+    width: 100%;
+}
+
+.jogo1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #c9c9c9;
+}
+
+.jogo2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.time{
+    width: 60%;
+}
+
+.placar{
+    width: 10%;
+}
+
+.resultado{
+    width: 30%;
+}
+
+.efeitoZika::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    animation: zika 1s;
+}
+
+@keyframes zika {
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 100%;
+    }
+}

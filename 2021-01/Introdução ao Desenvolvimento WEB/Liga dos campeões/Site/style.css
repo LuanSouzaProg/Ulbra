@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font: normal 15pt Arial;
+    padding: 0;
+}
+
+.divmainleft{
+    display: flex;
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    width: 50%;
+}
+
+.divleft{
+    width: 50%;
+    height: auto;
+}
+
+.divmainright{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+.divright{
+    width: 50%;
+    height: auto;
+}
+
+.container{
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.iconCLube{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.colunNumber{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.nameClube{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.separador{
+    height: 1px;
+    color: gray;
+    width: 50%;
+    margin-top: 0;
+}
+
+.titles{
+    color: gray;
+    font-size: 15px;
+}
+
+.divmaintop{
+    display: flex;
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+.divmainbot{
+    display: flex;
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.sectiontop{
+    background: rgb(22, 46, 88);
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 0;
+    
+}
+
+.titulo{
+    margin-left: 1%;
+    font-size: 16px;
+}
+
+.divlinha{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.textwhite{
+    color: white;
+}
+
+.textwhite:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+
+
+.tabelaGrupoA{
+    width: 40%;
+    margin: 0;
+}
+
+
+
+.colunTeam{
+    width: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.colunImg{
+    width: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.tabelaPontuacao{
+    width: 50%;
+    margin-right: 0%;
+    justify-content: right;
+}
